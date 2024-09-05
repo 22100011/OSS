@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .all {
+      width: 80%;
+      margin: auto;
+      /*중앙 정렬*/
+      color: snow;
+    }
+
+    .mid_1 {
+      border-radius: 5px;
+      background-color: rgb(59, 60, 74);
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 40px;
+      padding-bottom: 70px;
+    }
+
+    .mid_1_button {
+      border-radius: 5px;
+      background-color: rgb(84, 95, 249);
+      text-decoration: none;
+      color: snow;
+      padding-left: 8px;
+      padding-right: 8px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    .mid_1_button:hover {
+      background-color: rgb(53, 66, 239);
+    }
+    .mid_2{
+      width: 100%;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 20px;
+      padding-bottom:20px;
+    }
+    .mid_2_botton {
+      border: 2px, solid, snow;
+      border-radius: 5px;
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      color: snow;
+      text-decoration: none;
+    }
+    .mid_2_botton:hover{
+      background-color: snow;
+      color:black
+    }
+    .mid_3{
+      border-radius: 5px;
+      border: 1px solid, gray;
+      background-color:  rgb(59, 60, 74);
+      width: 100%;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 20px;
+      padding-bottom:20px;
+    }
+
+    .mid_3_botton{
+      border: 2px, solid,gray;
+      border-radius: 5px;
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      color: gray;
+      text-decoration: none;
+    }
+    .mid_3_botton:hover{
+      background-color: gray;
+      color:snow;
+      text-decoration: none;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }   
+    @media (max-width: 1200px) {
+  .container {
+    flex-direction: column; /* 작은 화면에서는 가로 정렬 */
+  }
+}
+  </style>
+</head>
+
+<body style="background-color: rgb(27, 29, 46);" class="all">
+  <div>
+    <h2>B Jumbotron example</h2>
+
+    <hr style="color: gray;">
+    
+    <br>
+  </div>
+  <div class="mid_1">
+    <h1>Custom jumbotron</h1>
+    <p>
+      Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap.
+      Check out the examples below for how you can remix and restyle it to your liking.
+    </p>
+    <a href="#" , class="mid_1_button">
+      Example button
+    </a>
+  </div>
+  
+  <br><br>
+
+  <div class="container">
+    <div class = "mid_2">
+      <h2>
+        Change the background
+      </h2>
+      <p>
+        Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and
+        match with additional component themes and more.
+      </p>
+      <a href="#", class = "mid_2_botton">
+        Example button
+      </a>
+    </div>
+    <div class = "mid_3">
+      <h2>Add borders</h2>
+      <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
+      <a href="#" class = "mid_3_botton">
+        Example button
+      </a>
+    </div>
+  </div>
+  <br>
+  <hr style="color: gray;">
+  <br><br>
+</body>
+
+</html>
