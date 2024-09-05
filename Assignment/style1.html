@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .head{
+      margin-left: 15px;
+    }
+    h1{
+      color: rgb(81, 210, 104);
+      margin-top: 30px;
+    }
+    .sheet{
+      background-color: rgb(94, 97, 94);
+      color: snow;
+      float: left; /* 이게 옆으로 이동하게 해준다.*/
+      width: 160px;
+      margin-top: 0px;
+      margin-left: -40px;;
+      margin-bottom: 10px;
+      margin-right: 50px;
+      list-style-type: none;
+      text-align: center;
+   
+    }
+    .sheet:hover{
+      background-color: black;
+    }
+    h2{
+      color: rgb(81, 210, 104);
+    }
+    .sidebar {
+      background-color: rgb(222, 219, 219);  
+      border: 1px solid black;
+      margin-right: 15px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .buttom{
+      font-size: smaller;
+      text-align: center;
+      margin-right: 15px;
+    }
+    a{
+      color:black;
+    }
+    a:hover{
+      color:aquamarine;
+    }
+    
+  </style>
+  <title>Document</title>
+</head>
+<body>
+  <div class = "head">
+    <h1>Welcome to 강성규’s Homepage (22100011)</h1>
+    <p>
+      Use the menu to select different Stylesheets
+    </p>
+    <br>
+    <ul>
+      <li class = "sheet">Stylesheet 1 </li>
+      <li class = "sheet">Stylesheet 2 </li>
+      <li class = "sheet", style="background-color: green;">Stylesheet 3 </li>
+      <li class = "sheet">Stylesheet 4 </li>
+      <li class = "sheet">No Stylesheet </li>
+    </ul>
+    <br>
+    <h1>Same Page Different Stylesheets</h1>
+    <p>
+      This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change the layout of this page by selecting different stylesheets in the menu, or by selecting one of the following links: <br>
+      <a href="#">Stylesheet1, </a>
+    <a href="#">Stylesheet2, </a>
+    <a href="#">Stylesheet3, </a>
+    <a href="#">Stylesheet4. </a>
+    </p>
+    <h2>
+      No Styles
+    </h2>
+    <p>This page uses DIV elements to group different sections of the HTML page. Click here to see how the page looks like with no stylesheet: <br>
+    <a href="#">No Stylesheet. </a><br></p>
+
+    <div class = "sidebar">
+      <h3 style="color: green;">
+        Side-Bar
+      </h3>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+    </div>
+      <p class = "buttom">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+      </p>
+  </div>
+  
+</body>
+</html>
